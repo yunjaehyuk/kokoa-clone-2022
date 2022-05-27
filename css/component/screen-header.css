@@ -3,9 +3,10 @@
   justify-content: space-between;
   padding: 25px;
   align-items: center;
-  padding: vaaar(--horizontal-space);
+  padding: var(--horizontal-space);
   padding-top: 40px;
   opacity: 90%;
+  margin-bottom: 15px;
 }
 .screen-header__title {
   font-size: 24px;
