@@ -1,3 +1,6 @@
+.user-component {
+  justify-content: space-between;
+}
 .user-component,
 .user-component__column:first-child {
   display: flex;
@@ -17,4 +20,9 @@
 .user-component__subtitle {
   margin-top: 5px;
   color: rgba(0, 0, 0, 0.5);
+}
+.user-component__avatar--sm {
+  width: 60px;
+  height: 60px;
+  border-radius: 25px;
 }
