@@ -41,36 +41,43 @@
   opacity: 0.6;
 }
 .open-post {
-  margin: 0px 30px;
-}
-.open-post__column {
-  margin-bottom: 10px;
+  display: flex;
+  margin: 10px 30px;
 }
 .open-post__title {
-  margin-top: 55px;
-  margin-bottom: 10px;
+  font-weight: 600;
+  margin-bottom: 7px;
 }
-.open-post__subtitle {
-  color: rgba(0, 0, 0, 0.5);
-  margin-bottom: 10px;
-}
-.user-component__member {
-  width: 20px;
-  height: 20px;
-  border-radius: 8px;
+.open-post__hastags {
+  text-transform: uppercase;
+  opacity: 0.6;
 }
 .open-post__members {
-  color: rgba(0, 0, 0, 0.4);
-}
-.open-post__Active {
-  color: #ffbde5;
-}
-.user-component__mainjpg {
+  margin-top: 7px;
   display: flex;
   align-items: center;
 }
-.user-component__main {
-  width: 100px;
-  height: 100px;
-  border-radius: 10%;
+.open-post__members img {
+  width: 15px;
+  height: 15px;
+}
+.open-post__member-count {
+  opacity: 0.5;
+  font-size: 14px;
+}
+
+.open-post__members .divider {
+  width: 2px;
+  height: 15px;
+  margin: 0 5px;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.open-post__member-status {
+  color: #ffb0e0;
+}
+.open-post__jpg {
+  display: flex;
+  width: 15px;
+  height: 15px;
 }
