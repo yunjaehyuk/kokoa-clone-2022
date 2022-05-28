@@ -6,10 +6,13 @@
 @import "component/nav-bar.css";
 @import "component/screen-header.css";
 @import "component/user-component.css";
-@import "component/chats.css";
+@import "component/badge.css";
+@import "component/point.css";
+
 /* screens */
 @import "screens/login.css";
 @import "screens/friends.css";
+@import "screens/find.css";
 body {
   font-family: "Open Sans", sans-serif;
   height: 1000vh;
