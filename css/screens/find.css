@@ -31,3 +31,46 @@
   text-align: center;
   color: rgba(0, 0, 0, 0.4);
 }
+.open-chat__header {
+  margin: 0px 30px;
+  display: flex;
+  opacity: 0.8;
+  justify-content: space-between;
+}
+.open-chat__header span {
+  opacity: 0.6;
+}
+.open-post {
+  margin: 0px 30px;
+}
+.open-post__column {
+  margin-bottom: 10px;
+}
+.open-post__title {
+  margin-top: 55px;
+  margin-bottom: 10px;
+}
+.open-post__subtitle {
+  color: rgba(0, 0, 0, 0.5);
+  margin-bottom: 10px;
+}
+.user-component__member {
+  width: 20px;
+  height: 20px;
+  border-radius: 8px;
+}
+.open-post__members {
+  color: rgba(0, 0, 0, 0.4);
+}
+.open-post__Active {
+  color: #ffbde5;
+}
+.user-component__mainjpg {
+  display: flex;
+  align-items: center;
+}
+.user-component__main {
+  width: 100px;
+  height: 100px;
+  border-radius: 10%;
+}
