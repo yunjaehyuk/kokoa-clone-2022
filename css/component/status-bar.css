@@ -1,14 +1,7 @@
 .status-bar {
-  position: absolute;
-  top: 5px;
-  position: fixed;
   display: flex;
   justify-content: center;
-  padding: 5px 3px;
-  position: fixed;
-  width: 100%;
-  box-sizing: border-box;
-  justify-content: space-between;
+  margin: 0px 15px;
 }
 .status-bar_column {
   width: 33%;
