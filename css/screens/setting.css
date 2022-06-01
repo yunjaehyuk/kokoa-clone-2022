@@ -1,0 +1,35 @@
+.setting-header {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+.setting-header__bar:first-child {
+  font-size: 25px;
+}
+.setting-header__bar h2 {
+  font-size: 20px;
+  font-weight: 600;
+}
+.setting-icon {
+  display: flex;
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+.setting-icon span {
+  margin-left: 20px;
+}
+.setting-icon:nth-child(1) {
+  margin-top: 40px;
+}
+.setting-icon:nth-child(3) {
+  border-bottom: var(--main-border);
+  padding-bottom: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+.setting-add {
+  color: rgba(0, 0, 0, 0.6);
+}
+.setting-icon:nth-child(4) {
+  margin-top: 40px;
+}
