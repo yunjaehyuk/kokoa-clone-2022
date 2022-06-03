@@ -25,54 +25,37 @@
     </div>
 
     <header class="screen-header">
-      <h1 class="screen-header__title">Find</h1>
+      <h1 class="screen-header__title">Chats</h1>
       <div class="screen-header__icons">
         <span><i class="fa-solid fa-magnifying-glass fa-lg"></i></span>
+        <span><i class="fa-regular fa-comment-dots fa-lg"></i></span>
+        <span><i class="fa-solid fa-music fa-lg"></i></span>
         <span><i class="fa-solid fa-gear fa-lg"></i></span>
-        <span class="point"></span>
       </div>
     </header>
 
-    <main>
-      <div class="icon-row">
-        <div class="icon-row__icon"><i class="fa-solid fa-qrcode"></i><span>Qr code</span></div>
-        <div class="icon-row__icon"><i class="fa-solid fa-address-book"></i><span>Add by Contacts</span></div>
-        <div class="icon-row__icon"><i class="fa-solid fa-fingerprint"></i><span>Add by Id</span></div>
-        <div class="icon-row__icon"><i class="fa-solid fa-envelope"></i><span>Invite</span></div>
-      </div>
-      <div class="recommended-friends">
-        <h6 class="recommended-friends__title">Recommended Friends</h6>
-        <span>You have no recommended-friends</span>
-      </div>
-    <div class="open-chat">
-      <h4>Open chat</h4>
-      <span class="open-chat__text"> Go to Openchat Home 
-        <i class="fa-solid fa-chevron-right fa-xs"></i>
-      </span>
-    </div>
-    <div class="find-post">
-      <div class="find-column">
-        <h2 class="find-post__title">#BTS</h2>
-        <span class="find-post__text">#bts#army#friends</span>
-        <div class="find-post__members">
-          <img src="screenshots/iu blueming.jpg"/>
-          <span>802 members |</span>
-          <span class="find-post__active">Active</span>
+    <main class="friends-screen">
+      <a href="chat.html">
+      <div class="user-component">
+        <div class="user-component__column">
+          <img
+            src="https://avatars.githubusercontent.com/u/77560753?v=4"
+            class="user-component__avatar user-component__avatar--xl"
+          />
+          <div class="user-component__text">
+            <h4 class="user-component__title">Nicolas</h4>
+            <span class="user-component__content">
+              Please check My Kakao account Info</span
+            >
+          </div>
+        </div>
+        <div class="user-component__column">
+          <span class="user-component__time">21:22</span>
+          <span class="user-component__message badge">1</span>
+        </div>
         </div>
       </div>
-      <div class="find-column">
-        <div class="find-post__photo">
-          <img src="screenshots/iu 마음.jpg"/>
-          <div class="find-post__heart">
-            <i class="fa-solid fa-heart fa-xs"></i>
-          <span>326</span>
-          </div>  
-        </div>     
-      </div>
-
-    </div>
-
-
+    </a>
     </main>
 
     <nav class="nav">
