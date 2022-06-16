@@ -74,3 +74,22 @@
   margin-left: 3px;
   font-size: 15px;
 }
+
+@keyframes heartBeat {
+  0% {
+    color: white;
+    transform: none;
+  }
+  50% {
+    color: tomato;
+    transform: scale(1.5);
+  }
+  100% {
+    color: white;
+    transform: none;
+  }
+}
+
+.find-post_heart:hover i {
+  animation: heartBeat 5s linear infinite;
+}

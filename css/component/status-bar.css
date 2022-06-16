@@ -20,7 +20,6 @@
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  margin-right: auto;
 }
 .status-bar_column .fa-battery-full {
   margin: 0px 5px;
